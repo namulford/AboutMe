@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+body {
+    background-image: url("http://ossekeag.ca/wp-content/uploads/2015/04/Listen-In_Record-Store-Day.jpg");
+    background-color: #cccccc;
+ }
+
+ .menu{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     color: white;
+     font-weight: bold;
+     font-size: 25px;
+ }
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
